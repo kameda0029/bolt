@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+body {
+  font-family: Lato;
+}
+.font-raleway {
+  font-family: Raleway;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+} 
+
+.header {
+  background-color: #fff;
+  width: 100%;
+}
+
+.top_header {
+  background-color: #fff;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #74cfae;
+  width: 30px;
+  padding: 12px 14px 12px 14px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  float: right;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: brown;
+}
+
+.icon_float {
+  float: left;
+  padding: 15px 0 15px 0;
+  font-size: 25px;
+}
+
+.theme {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 250px 0 250px 0;
+}
+
+.theme_title {
+  text-align: center;
+}
+
+.Bolt_Theme {
+  font-size: 90px;
+  color: #74cfae;
+  line-height: 70px;
+}
+
+.FREE_BOOTSTRAP_THEMES {
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.what_we_can_do {
+  background-color: #74cfae;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.table {
+  display: table;
+}
+
+.iphone {
+  display: table;
+  margin: 0 auto;
+}
+
+.imgbox {
+  display: table-cell;
+}
+
+.textbox {
+  display: table-cell;
+  width: 600px;
+  text-align: center;
+  vertical-align: top;
+  padding-left: 120px;
+}
+
+.what_we {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+}
+
+.description {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 35px;
+  word-break: break-all;
+}
+
+.our_latest_work {
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 0;
+  padding: 60px 0 70px 0;
+}
+
+.article_title {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 0 40px 0;
+  font-family: Raleway;
+}
+
+.control_img_top {
+  float: left;
+  padding: 0 0 80px 100px;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.control_img_top:hover {
+  opacity: 1.0;
+}
+
+.control_img_top:first-child {
+  padding-left: 0;
+}
+
+.control_img_top:nth-child(4) {
+  padding-left: 0;
+}
+
+.control_img_top:nth-child(n+4) {
+  padding-bottom: 90px;
+}
+
+
+.article_text_box {
+  display: table;
+  margin: 0 auto;
+  
+}
+
+.left_textbox {
+  display: table-cell;
+  width: 600px;
+  text-align: center;
+}
+
+.left_textbox_inner {
+  font-size: 20px;
+}
+
+.right_button {
+  padding-left: 90px;
+}
+
+.right_button_width {
+  width: 100px;
+  display: table-cell;
+  background-color: #74cfae;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px 14px 20px;
+  transition: all 0.3s;
+}
+
+.right_button_width:hover {
+  background-color: brown;
+}
+
+.right_button_inner {
+  font-size: 12px;
+}
+
+.our_skills {
+  background-color: #4e4e4e;
+  width: 100%;
+  padding: 70px 0 100px 0;
+}
+
+.our_skills_text {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.section_imgbox {
+  padding-top: 70px;
+}
+
+.section_img_padding {
+  padding-left: 180px;
+}
+
+.section_img_padding:first-child {
+  padding-left: 0;
+}
+
+.javascript{
+  float: left;
+}
+
+.Bootstrap {
+  float: left;
+}
+
+.wordpress {
+  float: left;
+}
+
+.photoshop {
+  float: left;
+}
+
+.under_JavaScript {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.under_Bootstrap {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.under_WordPress {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.under_Photoshop {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sns {
+  background-color: #f2f2f2;
+  padding: 200px 0 200px 0;
+}
+
+.sns_icon {
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime {
+  float: left;
+  width: 185px;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  color: #74cfae;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.anime:hover {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #74cfae;
+  padding: 20px 0 25px 0;
+}
+
+.footer_text {
+  font-size: 24px;
+  color: #fff;
+  float: right;
+}
