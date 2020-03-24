@@ -163,7 +163,6 @@ body {
 .article_text_box {
   display: table;
   margin: 0 auto;
-  
 }
 
 .left_textbox {
@@ -217,26 +216,11 @@ body {
 
 .section_img_margin {
   margin-left: 180px;
+  float: left;
 }
 
 .section_img_margin:first-child {
   margin-left: 0;
-}
-
-.javascript{
-  float: left;
-}
-
-.Bootstrap {
-  float: left;
-}
-
-.wordpress {
-  float: left;
-}
-
-.photoshop {
-  float: left;
 }
 
 .under_JavaScript {
