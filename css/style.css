@@ -4,10 +4,6 @@ body {
   font-family: Lato;
 }
 
-.img {
-  vertical-align: bottom;
-}
-
 .clearfix:after {
   display: block;
   content: "";
