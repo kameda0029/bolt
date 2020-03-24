@@ -3,9 +3,6 @@
 body {
   font-family: Lato;
 }
-.font-raleway {
-  font-family: Raleway;
-}
 
 .img {
   vertical-align: bottom;
@@ -94,6 +91,7 @@ body {
 
 .imgbox {
   display: table-cell;
+  font-size: 0;
 }
 
 .textbox {
@@ -250,6 +248,7 @@ body {
 .sns {
   background-color: #f2f2f2;
   padding: 200px 0 200px 0;
+  font-size: 0;
 }
 
 .sns_icon {
