@@ -161,6 +161,7 @@ body {
 
 .control_img_top:nth-child(3n+1){
   margin-top: 80px;
+  margin-left: 0;
 }
 
 .control_img_top:first-child {
@@ -169,7 +170,7 @@ body {
 
 .article_text_box {
   display: table;
-  margin-top: 90px;
+  margin: 90px auto 0;
 }
 
 .left_textbox {
