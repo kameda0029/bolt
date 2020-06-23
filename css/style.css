@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-body {
+.body {
   font-family: Lato;
+}
+
+.text_Raleway {
+  font-family: Raleway;
 }
 
 .clearfix:after {
@@ -15,6 +19,7 @@ body {
   width: 100%;
   padding: 15px 0 15px 0;
   z-index: 10;
+  position: fixed;
 }
 
 .top_header {
@@ -64,7 +69,6 @@ body {
   font-size: 90px;
   color: #74cfae;
   font-weight: 700;
-  font-family: Raleway;
 }
 
 .FREE_BOOTSTRAP_THEMES {
@@ -80,33 +84,30 @@ body {
   padding-top: 50px;
 }
 
-.table {
-  display: table;
-}
 
 .iphone {
-  display: table;
   margin: 0 auto;
+  position: relative;
+  left: 10%;
 }
 
 .imgbox {
-  display: table-cell;
   font-size: 0;
+  float: left;
 }
 
 .textbox {
-  display: table-cell;
   width: 600px;
   text-align: center;
   vertical-align: top;
   padding-left: 120px;
+  float: left;
 }
 
 .what_we {
   font-size: 24px;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
 }
 
 .description {
@@ -145,47 +146,39 @@ body {
   opacity: 0.7;
   transition: all 0.3s;
   cursor: pointer;
+  margin: 80px 0 0 100px;
 }
 
 .control_img_top:hover {
   opacity: 1.0;
 }
 
-.control_img_top:nth-child(-n+3) {
-  margin: 0 0 0 100px;
-}
-
-.control_img_top:nth-child(n+5) {
-  margin: 80px 0 0 100px;
-}
-
 .control_img_top:nth-child(3n+1){
-  margin-top: 80px;
   margin-left: 0;
 }
 
-.control_img_top:first-child {
-   margin: 0 0 0 0;
+.control_img_top:nth-child(-n+3){
+  margin-top: 0;
 }
-
 .article_text_box {
-  display: table;
   margin: 90px auto 0;
+  position: relative;
+  left:12%;
 }
 
 .left_textbox {
-  display: table-cell;
   width: 600px;
   text-align: center;
+  float: left;
 }
 
 .left_textbox_inner {
   font-size: 20px;
-  display: inline-block;
 }
 
 .right_button {
   margin-left: 90px;
+  float: left;
 }
 
 .right_button_width {
@@ -210,7 +203,6 @@ body {
 
 .our_skills {
   background-color: #4e4e4e;
-  width: 100%;
   padding: 70px 0 100px 0;
 }
 
