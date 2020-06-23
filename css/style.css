@@ -34,7 +34,6 @@
 
 .button {
   background-color: #74cfae;
-  width: 30px;
   padding: 12px 14px 12px 14px;
   text-align: center;
   font-size: 10px;
@@ -53,6 +52,10 @@
   position: absolute;
   left: 0;
   font-size: 25px;
+}
+
+.main_plus{
+  padding-top: 64px;
 }
 
 .theme {
@@ -87,8 +90,7 @@
 
 .iphone {
   margin: 0 auto;
-  position: relative;
-  left: 10%;
+  padding-left: 10%;
 }
 
 .imgbox {
@@ -100,7 +102,7 @@
   width: 600px;
   text-align: center;
   vertical-align: top;
-  padding-left: 120px;
+  margin-left: 120px;
   float: left;
 }
 
@@ -162,14 +164,13 @@
 }
 .article_text_box {
   margin: 90px auto 0;
-  position: relative;
-  left:12%;
+  text-align: center;
 }
 
 .left_textbox {
   width: 600px;
   text-align: center;
-  float: left;
+  display: inline-block;
 }
 
 .left_textbox_inner {
@@ -178,7 +179,7 @@
 
 .right_button {
   margin-left: 90px;
-  float: left;
+  display: inline-block;
 }
 
 .right_button_width {
