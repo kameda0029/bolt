@@ -287,6 +287,16 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
+  
+  .inner {
+    width: 97%;
+  }
+
+  .header {
+    display: inline-block;
+    width: 100%
+  }
+
   .what_we_can_do {
    padding: 50px 0 25px 0; 
   }
@@ -303,8 +313,8 @@
 
   .textbox {
     text-align: center;
-    margin-left: 148px;
-    width: 800px;
+    width: 100%;
+    margin-left: 0;
   }
 
   .article_img {
@@ -330,7 +340,7 @@
   }
 
   .left_textbox {
-    width: 900px;
+    width: 100%;
     display: block;
   }
 
