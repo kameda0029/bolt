@@ -367,19 +367,11 @@
 @media screen and (max-width: 767px){
   
   .inner {
-    width: 97%;
-  }
-
-  .header {
-    width: 90%;
+    width: 56.5%;
   }
 
   .button {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: white;
-    cursor: pointer;
+    display: none;
   }
 
   .line{
@@ -413,5 +405,35 @@
   .theme_title {
     width: 278px;
     margin: 0 auto;
+  }
+
+  .imgbox {
+    margin-left: 87px;
+  }
+
+  .textbox {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .left_textbox {
+    width: 100%;
+  }
+
+  .our_latest_work {
+    text-align: center;
+    display: flex;
+  }
+
+  .article_img {
+    
+  }
+
+  .control_img_top {
+    margin: 0;
+  }
+
+  .right_button {
+    margin-left: 0;
   }
 }
