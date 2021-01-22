@@ -367,11 +367,19 @@
 @media screen and (max-width: 767px){
   
   .inner {
-    width: 56.5%;
+    width: 97%;
+  }
+
+  .header {
+    padding: 15px 0 47px 0;
   }
 
   .button {
     display: none;
+  }
+
+  .icon_float{
+    font-size: 60px;
   }
 
   .line{
@@ -408,7 +416,11 @@
   }
 
   .imgbox {
-    margin-left: 87px;
+    margin-left: 65px;
+  }
+
+  .iphone {
+    padding: 0 200px 0 200px;
   }
 
   .textbox {
@@ -425,15 +437,51 @@
     display: flex;
   }
 
-  .article_img {
-    
-  }
-
   .control_img_top {
-    margin: 0;
+    float: none;
+    display: inline-block;
   }
 
   .right_button {
-    margin-left: 0;
+    margin: 30px 0 0 0;
+  }
+
+  .left_textbox_inner {
+    margin: 0 200px 0 200px;
+  }
+
+  .section_imgbox {
+    text-align: center;
+  }
+
+  .section_img_margin {
+    float: none;
+    margin: 60px 0 0 0;
+  }
+
+  .section_img_margin:first-child {
+    margin: 0 0 0 0;
+  }
+
+  .sns {
+    padding: 50px 0 50px 0;
+  }
+  
+  .sns_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .anime {
+    padding: 30px 250px 30px 250px;
+    color: #74cfae;
+    width: 185px;
+    display: inline-block;
+    transition: all 1s;
+  }
+
+  .anime:hover {
+    background-color: #ff0000;
   }
 }
