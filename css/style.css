@@ -416,11 +416,12 @@
   }
 
   .imgbox {
-    margin-left: 65px;
+    margin-left: 46px;
   }
 
   .iphone {
-    padding: 0 200px 0 200px;
+    width: 40%;
+    padding: 0;
   }
 
   .textbox {
@@ -474,7 +475,7 @@
   }
 
   .anime {
-    padding: 30px 250px 30px 250px;
+    padding: 30px 30px 30px 30px;
     color: #74cfae;
     width: 185px;
     display: inline-block;
