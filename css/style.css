@@ -481,8 +481,4 @@
     display: inline-block;
     transition: all 1s;
   }
-
-  .anime:hover {
-    background-color: #ff0000;
-  }
 }
