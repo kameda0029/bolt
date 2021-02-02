@@ -285,7 +285,9 @@
   color: #fff;
   text-align: right;
 }
+@media screen and (max-width: 1200px){
 
+}
 @media screen and (min-width: 768px) and (max-width: 1199px){
   
   .inner {
@@ -379,7 +381,8 @@
   }
 
   .icon_float{
-    font-size: 60px;
+    font-size: 30px;
+    color: darkgrey;
   }
 
   .line{
@@ -393,11 +396,11 @@
   .three{
     width: 30px;
     display: flex;
-    height: 1px;
-    background-color: #333;
+    height: 2px;
     border-radius: 1px;
     flex-direction: column;
     margin-top: 6px;
+    background-color: darkgrey;
   }
 
   .three:first-child{
@@ -438,9 +441,14 @@
     display: flex;
   }
 
+  .article_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .control_img_top {
-    float: none;
-    display: inline-block;
+    margin: 0;
   }
 
   .right_button {
