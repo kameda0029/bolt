@@ -133,7 +133,7 @@
 }
 
 .article_img {
-  margin: 40px 0 90px 0;
+  margin: 40px 0 0 0;
 }
 
 .box_group1{
@@ -288,7 +288,7 @@
 @media screen and (max-width: 1200px){
 
 }
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (max-width: 1199px){
   
   .inner {
     width: 97%;
@@ -309,14 +309,12 @@
 
   .imgbox {
     text-align: center;
-    padding-bottom: 20px;
     float: none;
   }
 
   .textbox {
-    text-align: center;
-    width: 100%;
-    margin-left: 0;
+    margin:20px auto 0;
+    float: none;
   }
 
   .article_img {
@@ -338,7 +336,7 @@
   }
 
   .article_text_box {
-    margin-top: -10px;
+    margin-top: px;
   }
 
   .left_textbox {
@@ -367,14 +365,6 @@
 }
 
 @media screen and (max-width: 767px){
-  
-  .inner {
-    width: 97%;
-  }
-
-  .header {
-    padding: 15px 0 47px 0;
-  }
 
   .button {
     display: none;
@@ -418,12 +408,7 @@
     margin: 0 auto;
   }
 
-  .imgbox {
-    margin-left: 46px;
-  }
-
   .iphone {
-    width: 40%;
     padding: 0;
   }
 
@@ -432,31 +417,12 @@
     margin-left: 0;
   }
 
-  .left_textbox {
-    width: 100%;
-  }
-
-  .our_latest_work {
-    text-align: center;
-    display: flex;
-  }
-
-  .article_img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .control_img_top {
     margin: 0;
   }
 
   .right_button {
     margin: 30px 0 0 0;
-  }
-
-  .left_textbox_inner {
-    margin: 0 200px 0 200px;
   }
 
   .section_imgbox {
@@ -483,9 +449,7 @@
   }
 
   .anime {
-    padding: 30px 30px 30px 30px;
-    color: #74cfae;
-    width: 185px;
+    width: 97%;
     display: inline-block;
     transition: all 1s;
   }
