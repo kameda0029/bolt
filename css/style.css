@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-.body {
-  font-family: Lato;
-}
-
 .text_Raleway {
   font-family: Raleway;
+}
+
+.text_Lato {
+  font-family: Lato;
 }
 
 .clearfix:after {
@@ -18,7 +18,7 @@
   background-color: #fff;
   width: 100%;
   padding: 15px 0 15px 0;
-  z-index: 10;
+  z-index: 10000;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,12 +26,16 @@
 
 .top_header {
   background-color: #fff;
-  position: relative;
 }
 
 .inner {
   width: 1100px;
   margin: 0 auto;
+}
+
+.icon_float {
+  font-size: 25px;
+  float: left;
 }
 
 .button {
@@ -48,12 +52,6 @@
 
 .button:hover {
   color: #333;
-}
-
-.icon_float {
-  position: absolute;
-  left: 0;
-  font-size: 25px;
 }
 
 .main_plus {
@@ -88,7 +86,6 @@
   width: 100%;
   padding-top: 50px;
 }
-
 
 .iphone {
   margin: 0 auto;
@@ -131,7 +128,6 @@
 .article_title {
   font-size: 24px;
   text-align: center;
-  font-family: Raleway;
 }
 
 .article_img {
@@ -269,9 +265,7 @@
   color: #fff;
   text-align: right;
 }
-@media screen and (max-width: 1200px){
 
-}
 @media screen and (max-width: 1199px){
   
   .inner {
@@ -307,16 +301,17 @@
     align-items: center;
   }
 
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+
   .control_img_top {
-    margin: 0 ;
+    margin: 0;
   }
 
-  .control_img_top:nth-child(3n+1) {
+  .control_img_top:nth-child(4n){
     margin-top: 80px;
-  }
-
-  .control_img_top:first-child {
-    margin-top: 0;
   }
 
   .left_textbox {
@@ -352,7 +347,7 @@
 
   .icon_float{
     font-size: 30px;
-    color: darkgrey;
+
   }
 
   .line{
