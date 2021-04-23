@@ -34,8 +34,9 @@
 }
 
 .icon_float {
-  font-size: 25px;
+  font-size: 29px;
   float: left;
+  color: #808080;
 }
 
 .button {
@@ -315,7 +316,7 @@
     margin: 0;
   }
 
-  .control_img_top:nth-child(4n){
+  .article_img li:nth-child(4n){
     margin-top: 80px;
   }
 
@@ -340,12 +341,20 @@
     align-items: center;
   }
 
+  .section_imgbox li:nth-child(n+2){
+    margin-top: 88px;
+  }
+
   .section_img_margin {
     margin: 88px 0 0 0;
   }
 
   .section_img_margin:first-child {
     margin: 0
+  }
+
+  .sns_icon {
+    display: flex;
   }
 
 }
